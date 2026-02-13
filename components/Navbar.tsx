@@ -56,9 +56,9 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
             href="https://chat.whatsapp.com/Gt7BpUnOEMk0zvNf2EexGa?mode=gi_t"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 px-4 py-2 border border-green-500/30 text-green-400 hover:bg-green-900/20 rounded-sm font-cinzel text-xs tracking-widest uppercase transition-all"
+            className="flex items-center gap-2 px-6 py-2 bg-green-600 hover:bg-green-500 text-white rounded-sm font-cinzel text-xs tracking-widest uppercase transition-all shadow-lg hover:shadow-green-500/50 font-bold border border-green-400"
           >
-            <MessageCircle size={14} />
+            <MessageCircle size={16} className="fill-white" />
             Participar
           </a>
         </div>
@@ -89,10 +89,10 @@ const Navbar: React.FC<NavbarProps> = ({ activeSection }) => {
             href="https://chat.whatsapp.com/Gt7BpUnOEMk0zvNf2EexGa?mode=gi_t"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-2xl font-cinzel tracking-widest uppercase text-green-400 flex items-center gap-3 mt-4"
+            className="px-8 py-3 bg-green-600 text-white rounded-md text-xl font-cinzel tracking-widest uppercase flex items-center gap-3 mt-8 shadow-lg shadow-green-900/50 animate-pulse"
           >
-            <MessageCircle size={24} />
-            Participar
+            <MessageCircle size={24} className="fill-current" />
+            Participar Agora
           </a>
         </div>
       )}

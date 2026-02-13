@@ -34,9 +34,9 @@ const Hero: React.FC = () => {
             href="https://chat.whatsapp.com/Gt7BpUnOEMk0zvNf2EexGa?mode=gi_t"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-8 py-3 bg-green-900/30 hover:bg-green-800/50 border border-green-600/50 text-green-400 font-cinzel tracking-widest transition-all w-full md:w-auto uppercase text-sm flex items-center justify-center gap-2 group"
+            className="px-8 py-3 bg-green-600 hover:bg-green-500 text-white font-bold font-cinzel tracking-widest transition-all w-full md:w-auto uppercase text-sm flex items-center justify-center gap-2 group shadow-[0_0_15px_rgba(34,197,94,0.5)] hover:shadow-[0_0_25px_rgba(34,197,94,0.7)] border border-green-400 scale-105 hover:scale-110"
           >
-            <MessageCircle size={18} className="group-hover:scale-110 transition-transform" />
+            <MessageCircle size={20} className="fill-current animate-pulse" />
             Participar do RPG
           </a>
           <button
